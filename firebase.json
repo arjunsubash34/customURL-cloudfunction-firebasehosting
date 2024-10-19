@@ -1,0 +1,15 @@
+{
+  "hosting": {
+    "public": "public",
+    "rewrites": [
+      {
+        "source": "/hi",
+        "function": "custom-domain"
+      },
+      {
+        "source": "/test",
+        "function": "custom-domain"
+      }
+    ]
+  }
+}
